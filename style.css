@@ -170,7 +170,112 @@ hr{
         gap: 80px;
         width: 100vw;
     }
-    
 
+    .wrapper .section .profile{
+        display: block;
+        background-image: url(img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgba(8, 3, 3, 0.767);
+        padding: 50px;
+        width: 100vw;
+        height: 10%;
+        line-height: 2rem;
+    }
+    
+    
+    .wrapper .section .profile p{
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+    }
+    
+    .wrapper .section .profile p:nth-child(2){
+        font-size: 1rem;
+        color:green;
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    
   
+  }
+
+  @media only screen and (max-width: 430px) {
+    .wrapper nav{
+           height: 70%;
+           flex-direction: column;
+           gap: 10px;
+    }
+
+    .wrapper nav .logo h1{
+        color: black;
+        font-size: 4rem;
+        width: 100%;
+
+        
+    }
+
+    .wrapper nav .menu ul{
+        flex-direction: column;
+        margin-top: -1%;
+        gap: 80px;
+        width: 100vw;
+    }
+
+    .wrapper .section .profile{
+        display: block;
+        background-image: url(img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgba(8, 3, 3, 0.767);
+        padding: 50px;
+        width: 100vw;
+        height: 10%;
+        line-height: 1rem;
+    }
+    
+    
+    .wrapper .section .profile p{
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+    }
+    
+    .wrapper .section .profile p:nth-child(2){
+        font-size: 0.5rem;
+        color:green;
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    .wrapper .section .future p{
+        display: block;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    }
+   
+    .wrapper .section .future p:nth-child(2){
+        font-size: 1rem;
+        color:white;
+        font-style: italic;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    .wrapper .section .future li{
+        text-decoration: none;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        font-size: 0.7rem;
+    }
+    
   }
